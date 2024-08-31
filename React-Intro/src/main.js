@@ -1,11 +1,7 @@
-let firstname = "Misael";
 
-const lastname = "Fernandez"
-
-
-if(true) {
-    const lastname = "Lomas";
-    console.log(lastname);
+function obtenerInfo(name = 'Misael', apellido = 'Lomas') { //Por default
+    const info = `${name} ${apellido}`;
+    return info;
 }
 
-console.log(`Hola ${firstname} ${lastname}`);
+console.log(obtenerInfo('Marioni'));
