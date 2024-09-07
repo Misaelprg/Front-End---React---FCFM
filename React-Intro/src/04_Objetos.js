@@ -11,4 +11,4 @@ carro.nombre = '370z',
 carro.costo = 960000,
 carro.marca = 'Nissan'
 
-console.log(carro.nombre, carro.costo);
+console.log(carro.nombre, carro.cops)
