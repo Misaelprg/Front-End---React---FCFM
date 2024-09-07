@@ -4,4 +4,5 @@ function obtenerInfo(name = 'Misael', apellido = 'Lomas') { //Por default
     return info;
 }
 
-console.log(obtenerInfo('Marioni'));
+const info = obtenerInfo('Marioni');
+console.log(info);
